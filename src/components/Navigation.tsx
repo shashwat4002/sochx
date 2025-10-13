@@ -41,6 +41,14 @@ const Navigation = () => {
             >
               Showcase
             </Link>
+            <Link 
+              to="/blog" 
+              className={`text-sm font-medium transition-colors hover:text-primary ${
+                location.pathname.startsWith("/blog") ? "text-primary" : "text-muted-foreground"
+              }`}
+            >
+              Blog
+            </Link>
             <Button variant="secondary" size="sm">
               Submit Opportunity
             </Button>

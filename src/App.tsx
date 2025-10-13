@@ -9,6 +9,9 @@ import ProjectShowcase from "./pages/ProjectShowcase";
 import Navigation from "./components/Navigation";
 import NotFound from "./pages/NotFound";
 import Team from "./pages/Team";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
+import BlogAdmin from "./pages/BlogAdmin";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +28,9 @@ const App = () => (
             <Route path="/opportunities" element={<Opportunities />} />
             <Route path="/showcase" element={<ProjectShowcase />} />
             <Route path="/team" element={<Team />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
+            <Route path="/blog/admin" element={<BlogAdmin />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
