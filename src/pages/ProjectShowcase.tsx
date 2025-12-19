@@ -43,14 +43,15 @@ const ProjectShowcase = () => {
         <div className="container mx-auto max-w-6xl relative z-10">
           <div className="text-center space-y-6 animate-fade-in">
             <Badge className="bg-secondary hover:bg-secondary-hover text-secondary-foreground px-4 py-2 text-sm font-semibold">
-              Coming Soon
+              Accepting Submissions
             </Badge>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight">
               Where Young Minds Experience True Research Excellence
             </h1>
             <p className="text-lg sm:text-xl text-primary-foreground/90 max-w-4xl mx-auto leading-relaxed">
-              The SochX Project Showcase provides students with an environment that many only experience at the PhD level. Here, you'll get the chance to work with guidance from world-class professors[...]
+              The SochX Project Showcase provides students with an environment that many only experience at the PhD level. Here, you'll get the chance to work with guidance from world-class professors and present original research to a global audience.
             </p>
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8">
               <a 
                 href="https://forms.gle/36wdLAuYmeTSvfXZ8" 
@@ -78,6 +79,50 @@ const ProjectShowcase = () => {
                 Stay Updated
               </Button>
             </div>
+
+            <p className="text-sm text-primary-foreground/80 mt-4">The Google Form for submissions is attached to the "Submit Your Project" button above.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Event Details Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-background">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl font-bold text-foreground text-center mb-6">The Young Researchers' Project Showcase</h2>
+          <p className="text-muted-foreground leading-relaxed text-center mb-6">
+            A virtual event providing middle and high school students an opportunity to present their original research to a wider audience.
+          </p>
+
+          <div className="space-y-6">
+            <div>
+              <h3 className="text-xl font-semibold text-foreground mb-2">Event Objectives</h3>
+              <ul className="list-disc list-inside text-muted-foreground space-y-1">
+                <li>Offer a platform for emerging student researchers to share their findings with a wider audience at no cost.</li>
+                <li>Promote rigorous scientific communication skills.</li>
+                <li>Foster a community of young innovators to exchange ideas, inspire peers, and develop as independent thinkers.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-foreground mb-2">Eligibility</h3>
+              <ul className="list-disc list-inside text-muted-foreground space-y-1">
+                <li>Open to middle and high school students.</li>
+                <li>Students must have pursued an original research project in any field.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-foreground mb-2">General Instructions & Schedule</h3>
+              <ul className="list-disc list-inside text-muted-foreground space-y-1">
+                <li>Submit an abstract using the provided template by <strong>January 15th, 2026</strong>.</li>
+                <li>Notifications of acceptance will be sent by <strong>January 18th, 2026</strong>.</li>
+                <li>Accepted students must submit their presentations by <strong>January 26th, 2026</strong>.</li>
+                <li>Group presentations are allowed. Each presentation should be under <strong>12 minutes</strong>, with <strong>3 minutes</strong> for Q&amp;A.</li>
+                <li>Presentations will be evaluated by subject-area experts based on clarity, originality, and impact. Outstanding projects will receive recognition and certificates.</li>
+              </ul>
+            </div>
+
+            <p className="text-sm text-muted-foreground">Note: The Google Form for submissions is attached — click "Submit Your Project" at the top of the page to open the form.</p>
           </div>
         </div>
       </section>
@@ -91,7 +136,7 @@ const ProjectShowcase = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-primary via-secondary to-accent mx-auto rounded-full" />
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="p-8 text-center space-y-4 hover:shadow-lg transition-all duration-300 border-2 hover:border-primary/30">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
@@ -141,7 +186,7 @@ const ProjectShowcase = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-primary via-secondary to-accent mx-auto rounded-full" />
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="p-8 space-y-4 hover:shadow-lg transition-all duration-300">
               <div className="flex items-start gap-4">
