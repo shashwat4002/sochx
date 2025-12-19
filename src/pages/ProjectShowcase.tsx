@@ -49,11 +49,11 @@ const ProjectShowcase = () => {
               Where Young Minds Experience True Research Excellence
             </h1>
             <p className="text-lg sm:text-xl text-primary-foreground/90 max-w-4xl mx-auto leading-relaxed">
-              The SochX Project Showcase provides students with an environment that many only experience at the PhD level. Here, you'll get the chance to work with guidance from world-class professors and mentors from top institutions, including <span className="font-semibold">Indian Institute of Science, Bengaluru</span>; <span className="font-semibold">Prayoga Institute of Educational Research</span>; <span className="font-semibold">Ohio State University</span>; <span className="font-semibold">University of Sydney</span>, and many more.
+              The SochX Project Showcase provides students with an environment that many only experience at the PhD level. Here, you'll get the chance to work with guidance from world-class professors[...]
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8">
               <a 
-                href="https://forms.gle/pKWeWYuLBeaVDNaJ9" 
+                href="https://forms.gle/36wdLAuYmeTSvfXZ8" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -101,7 +101,7 @@ const ProjectShowcase = () => {
                 Breaking Financial Barriers
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Many international project showcases and research conferences charge high fees, making them inaccessible to most students. SochX democratizes access to high-quality research opportunities.
+                Many international project showcases and research conferences charge high fees, making them inaccessible to most students. SochX democratizes access to high-quality research opportunit[...]
               </p>
             </Card>
 
